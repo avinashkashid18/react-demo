@@ -1,0 +1,14 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+   "start-home": "cd home-page && npm start",
+   "start-container": "cd container-app && npm start",
+   "start": "cd my-demo && npm start & npm run start-home & npm run start-container"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,17 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "container/Header";
-import Footer from "container/Footer";
 import Home from "home/Home";
+import Layout from "./Layout";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.css';
 const App = () => (
-  <div className="container">
-    <Header />
+  <Layout >
+  
     This is home
     <Home/>
-    <Footer/>
-  </div>
+    
+  </Layout>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("app") as HTMLElement);
