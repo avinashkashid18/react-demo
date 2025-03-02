@@ -22,15 +22,15 @@ export default defineConfig({
   },
 
   devServer: {
-    port: 3000,
+    port: 3001,
     historyApiFallback: true,
     watchFiles: [path.resolve(__dirname, "src")],
   },
   output: {
     // You need to set a unique value that is not equal to other applications
-    uniqueName: "my_demo",
+    uniqueName: "home_page",
     // publicPath must be configured if using manifest
-    publicPath: "http://localhost:3000/",
+    publicPath: "http://localhost:3001/",
   },
 
   experiments: {

@@ -1,16 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "container/Header";
-import Footer from "container/Footer";
-import Home from "home/Home";
+
 import "./index.css";
-import 'bootstrap/dist/css/bootstrap.css';
+
 const App = () => (
   <div className="container">
-    <Header />
-    This is home
-    <Home/>
-    <Footer/>
+    <div>Name: home-page</div>
+    <div>Framework: react-18</div>
   </div>
 );
 
