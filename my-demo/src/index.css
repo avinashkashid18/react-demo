@@ -7,6 +7,7 @@ body {
   margin-top: 20px;
 }
 
-.header , .footer {
-  background-color:blue;
+.header,
+.footer {
+  background-color: blue;
 }

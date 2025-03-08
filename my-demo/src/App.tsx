@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Home from "home/Home";
+import HomePage from "homePage/HomePage";
 import Layout from "./Layout";
 import "./index.css";
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css";
 const App = () => (
-  <Layout >
-  
-    This is home
-    <Home/>
-    
+  <Layout>
+    <>
+      This is home
+      <HomePage />
+    </>
   </Layout>
 );
 
