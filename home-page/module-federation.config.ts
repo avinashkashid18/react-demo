@@ -1,8 +1,8 @@
 export const mfConfig = {
-  name: "home",
-  filename:'remoteEntry.js',
+  name: "homePage",
+  filename: "remoteEntry.js",
   exposes: {
-    "./Home":"./src/Home.tsx"
+    "./HomePage": "./src/HomePage.tsx",
   },
   shared: ["react", "react-dom"],
 };

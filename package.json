@@ -4,9 +4,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-   "start-home": "cd home-page && npm start",
-   "start-container": "cd container-app && npm start",
-   "start": "cd my-demo && npm start & npm run start-home & npm run start-container"
+    "start-home": "cd home-page && npm start",
+    "start-container": "cd container-app && npm start",
+    "start": "cd my-demo && npm start & npm run start-home & npm run start-container",
+    "format": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@rspack/cli": "~1.2.0",
+    "@rspack/core": "~1.2.0",
+    "@rspack/plugin-react-refresh": "~1.0.1",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "prettier": "^3.5.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.25.0"
   },
   "author": "",
   "license": "ISC",
